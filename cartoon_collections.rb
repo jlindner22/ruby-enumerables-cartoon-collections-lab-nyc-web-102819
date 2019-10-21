@@ -24,13 +24,9 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-array.find_index{ |food| food == [cheese_types]} 
+array.find_index{ |food| food == [cheese_types.include]} 
 end
 
 # find_index(value) → int or nil
 # find_index { |obj| block } → int or nil
 # find_index → an_enumerator
-# Compares each entry in enum with value or passes to block. Returns the index for the first for which the evaluated value is non-false. If no object matches, returns nil
-
-# (1..10).find_index  { |i| i % 5 == 0 and i % 7 == 0 }  #=> nil
-# (1..100).find_index { |i| i % 5 == 0 and i % 7 == 0 }  #=> 34
