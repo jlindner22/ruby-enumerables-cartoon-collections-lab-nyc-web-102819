@@ -24,7 +24,7 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-array.select.first{ |food| food = cheese_types} 
+array.select.first{ |food| food == cheese_types} 
 # end
 #   return nil
 end
