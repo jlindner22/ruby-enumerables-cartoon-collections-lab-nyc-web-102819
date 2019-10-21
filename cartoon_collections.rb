@@ -24,7 +24,7 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-array.find_index{ |food| food == [cheese_types.include]} 
+array.find_index{ |food| food == [cheese_types.include?]} 
 end
 
 # find_index(value) → int or nil
