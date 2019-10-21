@@ -34,15 +34,3 @@ end
 
 # (1..10).find_index  { |i| i % 5 == 0 and i % 7 == 0 }  #=> nil
 # (1..100).find_index { |i| i % 5 == 0 and i % 7 == 0 }  #=> 34
-# (1..100).find_index(50)                                #=> 49
-
-# def reduce_to_all_true(source_array)
-#   i = 0 
-#   while i < source_array.length do 
-#     if (source_array[i] == false)
-#     return false
-#   end
-#       i += 1
-#   end
-#   true
-# end
