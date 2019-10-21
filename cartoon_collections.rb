@@ -27,6 +27,3 @@ def find_the_cheese(array)
 array.find_index{ |food| food == [cheese_types]} 
 end
 
-# find_index(value) → int or nil
-# find_index { |obj| block } → int or nil
-# find_index → an_enumerator
