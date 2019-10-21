@@ -24,20 +24,20 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-if (array[i]) == 
+# if (array[i]) == 
 
-end
-  return nil
+# end
+#   return nil
 end
 
 
-def reduce_to_all_true(source_array)
-  i = 0 
-  while i < source_array.length do 
-    if (source_array[i] == false)
-     return false
-  end
-      i += 1
-  end
-   true
-end
+# def reduce_to_all_true(source_array)
+#   i = 0 
+#   while i < source_array.length do 
+#     if (source_array[i] == false)
+#     return false
+#   end
+#       i += 1
+#   end
+#   true
+# end
