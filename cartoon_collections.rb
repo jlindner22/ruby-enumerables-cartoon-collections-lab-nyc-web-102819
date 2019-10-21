@@ -23,5 +23,5 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-array.find_index{ |i| i == array.include?(cheese_types)} 
+array.find_index{ |i| i == cheese_types.include?(cheese_types)} 
 end
